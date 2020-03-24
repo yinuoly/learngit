@@ -1,0 +1,11 @@
+Linux启动Jenkins
+cd /usr/local/docker/jenkins/  进入Jenkins目录执行命令
+ll
+sh start.sh
+tail -f jenkins.log
+ll
+vi start.sh 
+ll
+vi start.sh
+netstat -npl|grep 9999
+systemctl status firewalld
